@@ -1,0 +1,84 @@
+@import url('search-btn.css');
+
+body {
+	margin: 0;
+}
+
+header {
+	color: black;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    position: relative;
+}
+
+h1 {
+	/* margin: auto; */
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subscribe-link {
+	color: black;
+}
+
+.search-icon {
+	color: #fff;
+	font-size: 24px;
+}
+
+.search-icon:hover {
+	cursor: pointer;
+}
+
+main {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 20px;
+	padding: 20px;
+}
+
+section {
+	background-color: #f4f4f4;
+	padding: 20px;
+}
+
+section:hover {
+	background-color: #eee;
+}
+
+section a {
+	text-decoration: none;
+	color: #000;
+}
+
+section h2 {
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+section .date {
+	margin-top: 0;
+	color: #999;
+}
+
+section p {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+section .continue-reading {
+	font-weight: bold;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
