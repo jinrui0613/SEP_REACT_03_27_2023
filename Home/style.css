@@ -1,7 +1,9 @@
 @import url('search-btn.css');
+@import url('footer.css');
 
 body {
 	margin: 0;
+	font-family: sans-serif;
 }
 
 header {
@@ -19,10 +21,12 @@ h1 {
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
+	font-family: 'Times New Roman', Times, serif;
+	text-decoration-line: underline;
 }
 
 .subscribe-link {
-	color: black;
+	color: grey;
 }
 
 .search-icon {
@@ -43,12 +47,15 @@ main {
 }
 
 section {
-	background-color: #f4f4f4;
+	background-color: white;
+	border: 5px solid rgb(230 230 230);
 	padding: 20px;
 }
 
 section:hover {
-	background-color: #eee;
+	border: 1px solid rgb(230 230 230);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+	padding: 24px;
 }
 
 section a {
@@ -56,14 +63,25 @@ section a {
 	color: #000;
 }
 
+section .world {
+	color: rgb(30 129 254);
+}
+section .design {
+	color: rgb(43 169 71);
+}
+
 section h2 {
-	margin: 0;
-	margin-bottom: 10px;
+	margin: 0 0 0 0;
 	font-size: 24px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+section h4 {
+	margin: 0 0 10px 0;
 }
 
 section .date {
-	margin-top: 0;
+	margin: 0 0 8px 0;
 	color: #999;
 }
 
@@ -73,12 +91,7 @@ section p {
 }
 
 section .continue-reading {
-	font-weight: bold;
-}
-
-footer {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
+	text-decoration: underline;
+	margin: 0 0 0 0;
+	color: rgb(61 140 255);
 }
