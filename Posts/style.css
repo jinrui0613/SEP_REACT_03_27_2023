@@ -1,3 +1,5 @@
+@import url('button.css');
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -5,8 +7,15 @@
 }
 
 .article {
-	flex: 2;
+	flex: 4;
 	margin-right: 50px;
+}
+
+.article ul{
+    list-style-type: disc;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 2%;
 }
 
 .sidebar {
