@@ -1,0 +1,32 @@
+header {
+	color: black;
+	/* padding: 20px; */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    position: relative;
+    margin-top: 4%;
+}
+
+header h1 {
+	/* margin: auto; */
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-family: 'Times New Roman', Times, serif;
+	text-decoration-line: underline;
+}
+
+.subscribe-link {
+	color: grey;
+}
+
+.search-icon {
+	color: #fff;
+	font-size: 24px;
+}
+
+.search-icon:hover {
+	cursor: pointer;
+}

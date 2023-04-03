@@ -1,14 +1,30 @@
 @import url('button.css');
+@import url('header.css');
+@import url('footer.css');
+@import url('search-btn.css');
+
+body {
+    margin: 0 5% auto;
+    font-family: sans-serif;
+}
 
 .container {
 	max-width: 1200px;
-	margin: 0 auto;
+	margin-top: 3%;
 	display: flex;
 }
 
+.container h1{
+    margin-bottom: 1%;
+}
+
+.container .date{
+    margin-top: 0;
+}
+
 .article {
-	flex: 4;
-	margin-right: 50px;
+	flex: 3;
+	margin-right: 20px;
 }
 
 .article ul{
@@ -23,14 +39,34 @@
 }
 
 .about, .archives, .elsewhere {
-	margin-bottom: 50px;
+	padding: 7%;
+    margin-bottom: 8%;
 }
 
-h1, h2 {
+.about {
+    background-color: rgb(245 245 245);
+}
+
+.about h2, .archives h2, .elsewhere h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.about p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* h1, h2 {
 	font-size: 36px;
 	margin-bottom: 20px;
-}
+} */
 
+h1 {
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
 p {
 	font-size: 16px;
 	line-height: 1.5;
@@ -47,7 +83,7 @@ li {
 }
 
 a {
-	color: #000;
+	color: rgb(61 140 255);
 }
 
 a:hover {

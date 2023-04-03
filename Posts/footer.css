@@ -1,0 +1,10 @@
+footer {
+	background-color: rgb(245 245 245);
+	color: grey;
+	padding: 20px;
+	text-align: center;
+}
+
+footer a {
+    color: rgb(61 140 255);
+}
